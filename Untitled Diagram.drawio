@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T01:15:44.278Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Ck3uFUO7zJkH7NRIKgZ8" version="20.3.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-23T01:31:28.299Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VowwS3QQK8Ycp2FAahxp" version="20.3.5" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Email System">
     <mxGraphModel dx="722" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -98,11 +98,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cesqH4gUZQFvVPN64Olk" name="Airline System">
-    <mxGraphModel dx="1203" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="722" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CA43vlbFBkv0AXXYpw-A-4" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" parent="1" source="niSMC1_hIPQbdT9DFdE--1" target="CA43vlbFBkv0AXXYpw-A-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;(0,N)&lt;/font&gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="niSMC1_hIPQbdT9DFdE--1" target="83kuWIWtCuED4UPV5EiZ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="niSMC1_hIPQbdT9DFdE--1" value="飞机" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" parent="1" vertex="1">
@@ -122,6 +125,12 @@
         </mxCell>
         <mxCell id="CA43vlbFBkv0AXXYpw-A-2" value="座位数" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="345" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-5" value="(0,N)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-5" target="83kuWIWtCuED4UPV5EiZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-8" value="(0,N)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-5" target="83kuWIWtCuED4UPV5EiZ-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CA43vlbFBkv0AXXYpw-A-5" value="飞行员" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="330" y="550" width="110" height="40" as="geometry" />
@@ -175,7 +184,7 @@
         <mxCell id="CA43vlbFBkv0AXXYpw-A-29" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" parent="1" source="CA43vlbFBkv0AXXYpw-A-24" target="CA43vlbFBkv0AXXYpw-A-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VEmO3UF6voIymFTCTEpk-5" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.371;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-24" target="VEmO3UF6voIymFTCTEpk-4">
+        <mxCell id="VEmO3UF6voIymFTCTEpk-5" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.371;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-24" target="VEmO3UF6voIymFTCTEpk-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VEmO3UF6voIymFTCTEpk-7" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-24" target="VEmO3UF6voIymFTCTEpk-6">
@@ -187,14 +196,20 @@
         <mxCell id="VEmO3UF6voIymFTCTEpk-11" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-24" target="VEmO3UF6voIymFTCTEpk-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-12" value="(0,N)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-24" target="83kuWIWtCuED4UPV5EiZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-13" value="(0,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="CA43vlbFBkv0AXXYpw-A-24" target="83kuWIWtCuED4UPV5EiZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CA43vlbFBkv0AXXYpw-A-24" value="航班" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="690" y="430" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CA43vlbFBkv0AXXYpw-A-26" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" parent="1" source="CA43vlbFBkv0AXXYpw-A-25" target="CA43vlbFBkv0AXXYpw-A-24" edge="1">
+        <mxCell id="CA43vlbFBkv0AXXYpw-A-26" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" parent="1" source="CA43vlbFBkv0AXXYpw-A-25" target="CA43vlbFBkv0AXXYpw-A-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CA43vlbFBkv0AXXYpw-A-25" value="&lt;u&gt;编号&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="620" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="750" y="580" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CA43vlbFBkv0AXXYpw-A-31" value="(0,N)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" parent="1" source="CA43vlbFBkv0AXXYpw-A-27" target="CA43vlbFBkv0AXXYpw-A-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -211,23 +226,50 @@
         <mxCell id="CA43vlbFBkv0AXXYpw-A-32" value="目标" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="695" y="306" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VEmO3UF6voIymFTCTEpk-3" value="(0,N)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="VEmO3UF6voIymFTCTEpk-1" target="CA43vlbFBkv0AXXYpw-A-24">
+        <mxCell id="VEmO3UF6voIymFTCTEpk-3" value="(0,N)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="VEmO3UF6voIymFTCTEpk-1" target="CA43vlbFBkv0AXXYpw-A-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VEmO3UF6voIymFTCTEpk-1" value="经停" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="805" y="306" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VEmO3UF6voIymFTCTEpk-4" value="计划起飞时间" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="710" y="570" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="VEmO3UF6voIymFTCTEpk-6" value="计划到达时间" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="820" y="540" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="VEmO3UF6voIymFTCTEpk-6" value="计划到达时间" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="870" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="VEmO3UF6voIymFTCTEpk-8" value="实际起飞时间" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="880" y="490" width="120" height="40" as="geometry" />
+          <mxGeometry x="900" y="434" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VEmO3UF6voIymFTCTEpk-10" value="实际到达时间" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="890" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="890" y="384" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-3" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="83kuWIWtCuED4UPV5EiZ-1" target="CA43vlbFBkv0AXXYpw-A-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-1" value="飞行" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="511" y="384" width="102" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-6" value="(1,1)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="83kuWIWtCuED4UPV5EiZ-4" target="CA43vlbFBkv0AXXYpw-A-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-4" value="执飞(机长)" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="435" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-9" value="(2,2)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="83kuWIWtCuED4UPV5EiZ-7" target="CA43vlbFBkv0AXXYpw-A-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-7" value="执飞(副机长)" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-11" value="共享" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="550" width="102" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-14" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;被共享&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="594" y="529" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="83kuWIWtCuED4UPV5EiZ-15" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;共享&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="711" y="542" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
