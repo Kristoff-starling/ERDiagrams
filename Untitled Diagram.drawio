@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T09:30:16.894Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="j3eWnaylNXwa8tiTGo7K" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-11-08T09:37:30.978Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G0iBh0P6EADpEA3XRbk8" version="20.4.1" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Email System">
     <mxGraphModel dx="722" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -971,6 +971,12 @@
         </mxCell>
         <mxCell id="1-RVIL5zeuYWQxRze_zU-33" value="&lt;font color=&quot;#ff0000&quot;&gt;E&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="549" y="210" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1-RVIL5zeuYWQxRze_zU-34" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;AIAD&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1-RVIL5zeuYWQxRze_zU-36" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;AIMD&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
